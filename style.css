@@ -7,3 +7,39 @@ body {
     min-height: 100vh;/* background height will be 100% of window */
 }
 
+.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255, 255, 0.8);
+}
+
+.loader img{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.image-container {   
+    margin: 10px 30%;
+}
+
+.image-container img {
+
+    width:100%;
+    margin: top 5px;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .image-container{
+        margin:10px;
+    }
+
+
+}
